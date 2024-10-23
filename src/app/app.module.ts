@@ -6,13 +6,19 @@ import { AppComponent } from './app.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { AboutComponent } from './components/about/about.component';
 import { HomeComponent } from './components/home/home.component';
+import { FooterComponent } from './components/footer/footer.component';
+import { UtmachComponent } from './components/utmach/utmach.component';
+import { FacultadComponent } from './components/facultad/facultad.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
     AboutComponent,
-    HomeComponent
+    HomeComponent,
+    FooterComponent,
+    UtmachComponent,
+    FacultadComponent
   ],
   imports: [
     BrowserModule,
